@@ -1,0 +1,31 @@
+# ===== 数据安全：绝不提交到 GitHub（公开仓库）=====
+# 原始 / 生成的业务数据表格（含进口汇总，避免泄露）
+*.xlsx
+*.xls
+*.csv
+
+# 爬虫登录凭证
+cookies*.txt
+*.cookie
+*.session
+
+# 本地备份与运行日志
+backups/
+logs/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 编辑器 / 系统垃圾
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.tmp
+~$*
+
+# 项目元数据（含对话记录等，绝不公开）
+.codebuddy/
+.workbuddy/
